@@ -9,3 +9,6 @@ npm install bootstrap@5.2.3
 
 ### install material 
 npm install @mui/material @emotion/react @emotion/styled
+
+### install react router
+npm install react-router-dom
