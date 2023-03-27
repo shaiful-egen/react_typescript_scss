@@ -6,6 +6,6 @@ POST http://localhost:7000/book
 Content-Type: application/json
 
 {
-  "id": 1001,
-  "name": "book 1001"
+  "id": 1002,
+  "name": "book 1002"
 }
