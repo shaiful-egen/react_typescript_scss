@@ -3,5 +3,4 @@ cd express_server
 npm install
 
 ### Run
-node ExpressApp.js
-
+npm start

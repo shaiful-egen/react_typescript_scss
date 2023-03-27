@@ -19,6 +19,13 @@ npm install axios
 ### install rxjs
 npm install rxjs
 
+
+### For express.js backend
+cd express_server
+npm install
+npm start
+
+
 ### Todo
 - Router
 - axios http call
