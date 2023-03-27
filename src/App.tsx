@@ -4,6 +4,7 @@ import {BrowserRouter, Link, Outlet, Route, Routes} from "react-router-dom";
 import {StudentComp} from "./app/comp/student/StudentComp";
 import {LoginComp} from "./app/comp/login/LoginComp";
 import {DataPassFromToComp} from "./app/comp/data_pass_from_to/DataPassFromTo";
+import {HttpCallComp} from "./app/comp/http_call/HttpCallComp";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
               <Route index element={<LoginComp/>}/>
               <Route path="student" element={<StudentComp/>}/>
               <Route path="data-pass-from-to" element={<DataPassFromToComp/>}/>
+              <Route path="http-call" element={<HttpCallComp/>}/>
             </Route>
           </Routes>
         </div>
@@ -30,6 +32,7 @@ function NavComp() {
       <Link to="/">Home</Link> | &nbsp;
       <Link to="/data-pass-from-to">data-pass-from-to</Link> | &nbsp;
       <Link to="/student">student</Link> | &nbsp;
+      <Link to="/http-call">http-call</Link> | &nbsp;
       <hr/>
       <Outlet/>
     </div>
