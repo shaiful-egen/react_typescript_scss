@@ -27,10 +27,20 @@ npm start
 
 
 ### Todo
-- Router
-- axios http call
-- Rxjs
+- Router (done)
+- axios http call (done)
+- Rxjs (done)
 - material design (https://mui.com/material-ui/getting-started/installation/)
-- Reactive form
 - Ag-Grid
 - 
+
+# form
+- Reactive form (react reactive form  / react hook form )
+- react select
+
+# 
+
+https://medium.com/hackernoon/introducing-reactive-forms-in-react-e6df0b84a1ea
+https://reactnativeexample.com/angular-like-reactive-forms-in-react/
+
+https://github.com/JedWatson/react-select/tree/master
